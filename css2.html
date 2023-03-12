@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            My page
+        </title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color:black;
+                font-family: monospace;
+                font-size: 20px;
+            }
+            .injected-text{
+                margin-bottom:-25px;
+                text-align:center;
+            }
+            .purple-color{
+                background-color:purple;
+                padding:50px;
+            }
+            .blue-color{
+                background-color:blue;
+                padding:20px;
+                margin:10px;
+            }
+            .red-color{
+                background-color:red;
+                padding:20px;
+                margin:10px;
+            }
+            .orange-color{
+                background-color:orange;
+                padding-top:20px;
+                padding-right:40px;
+                padding-bottom:20px;
+                padding-left:40px;
+                margin-top:40px;
+                margin-right:20px;
+                margin-bottom:40px;
+                margin-left:20px;
+            }
+            .green-color{
+                background-color:green;
+                padding:20px 40px 20px 40px;
+                margin:40px 20px 40px 20px;
+            }
+            .box{
+                border-style:solid;
+                border-color:black;
+                border-width:5px;
+                text-align:center;
+            }
+            .box1{
+                margin:10px;
+                background-color: azure;
+            }
+            .light-green{
+                background-color:lightgreen;
+            }
+            .light-pink{
+                background-color: lightpink;
+            }
+            .bgpink{
+                background-color: pink;
+            }
+        </style>
+        <h5 class="injected-text">
+            MARGIN
+        </h5>
+        <div class="box purple-color">
+            <h5 class="box red-color">PADDING</h5>
+            <h5 class="box blue-color">PADDING</h5>
+            <h5 class="box orange-color">PADDING</h5>
+            <h5 class="box green-color">PADDING</h5>
+            <h5 class="box light-pink light-green">PADDING</h5>
+            <h5 class="bgpink">PADDING</h5>
+        </div>
+        <div class="box1">
+            CHECKBOX
+            <br>
+            <input type="checkbox"/>
+            <input type="checkbox"/>
+        </div>
+    </body>
+</html>
